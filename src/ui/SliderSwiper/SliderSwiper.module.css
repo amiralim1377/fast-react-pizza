@@ -1,0 +1,7 @@
+.sliderContainer {
+  width: 1280px;
+  height: 518px;
+  margin-top: 0 auto;
+  display: flex;
+  align-items: center;
+}
