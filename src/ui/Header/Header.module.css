@@ -1,0 +1,29 @@
+header {
+  color: #edc84b;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none solid rgb(237, 200, 75);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header::after,
+header::before {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: #edc84b;
+}
+
+header::after {
+  margin-right: 15px;
+}
+
+header::before {
+  margin-left: 15px;
+}
