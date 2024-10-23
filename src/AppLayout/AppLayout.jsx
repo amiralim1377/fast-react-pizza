@@ -10,6 +10,7 @@ function AppLayout() {
       <div className={styles.container}>
         <Outlet />
       </div>
+
       <Footer />
     </>
   );
