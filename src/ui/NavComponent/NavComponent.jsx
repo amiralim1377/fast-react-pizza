@@ -1,21 +1,26 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./NavComponent.module.css";
 function NavComponent() {
   return (
-    <div>
-      <nav className={styles.nav}>
-        <Link to="homepage" className={styles.linkNav}>
-          HomePage
-        </Link>
-        <br />
-        <Link to="menu" className={styles.linkNav}>
-          our Menu
-        </Link>
-        <Link to="aboutus" className={styles.linkNav}>
-          ABOUT US
-        </Link>
-      </nav>
-    </div>
+    <nav className={styles.nav}>
+      <ul>
+        <li>
+          <NavLink className={styles.linkNav} to="homepage">
+            HomePage
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={styles.linkNav} to="menu">
+            our Menu
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={styles.linkNav} to="aboutus">
+            ABOUT US
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
