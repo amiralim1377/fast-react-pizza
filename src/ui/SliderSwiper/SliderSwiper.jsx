@@ -1,24 +1,28 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  EffectCoverflow,
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 import styles from "./SliderSwiper.module.css";
 function SliderSwiper() {
   return (
     <>
       <div className={styles.sliderContainer}>
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
           spaceBetween={50}
-          slidesPerView={3}
+          effect={"coverflow"}
+          grabCursor={true}
+          slidesPerView={"3"}
           navigation
           scrollbar={{ draggable: true }}
           pagination={{ clickable: true }}
-          effect={"coverflow"}
-          grabCursor={true}
         >
           <SwiperSlide>
             <img

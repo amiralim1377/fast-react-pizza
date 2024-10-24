@@ -5,6 +5,8 @@ import styles from "./Pizza.module.css";
 
 function Pizza() {
   const pizzas = useLoaderData();
+  console.log(pizzas);
+
   return (
     <>
       <div className={styles.pizzaItemWrapper}>

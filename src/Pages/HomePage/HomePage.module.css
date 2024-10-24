@@ -1,4 +1,8 @@
-.sliderWraper {
+.SliderSwiper {
+  max-width: 1280px;
   height: 518px;
-  width: 1280px;
+  margin-top: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

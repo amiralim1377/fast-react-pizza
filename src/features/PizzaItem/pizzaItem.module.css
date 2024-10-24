@@ -6,6 +6,10 @@
   padding: 15px;
 }
 
+.itemWrapper:hover {
+  background: #d8d2c2;
+}
+
 .imgWrapper {
   width: 120px;
   height: 120px;

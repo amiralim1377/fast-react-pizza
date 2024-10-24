@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "pizza",
+    "src": "https://fast-react-pizza-menu.netlify.app/pizzas/margherita.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Best Food",
+    "src": "https://fast-react-pizza-menu.netlify.app/pizzas/focaccia.jpg"
+  },
+  {
+    "id": 3,
+    "category": "burgers",
+    "src": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/MCD8195-HM-VisID-Refresh-DiscoverHM-thumbs-Hamburger.png"
+  },
+  {
+    "id": 4,
+    "category": "drinks",
+    "src": "https://s7d1.scene7.com/is/image/mcdonalds/NavImage_Beverages_160x160:menu-category?resmode=sharp2"
+  },
+  {
+    "id": 5,
+    "category": "sandwiches",
+    "src": "https://somethingaboutsandwiches.com/wp-content/uploads/2022/04/ham-sandwich.jpg"
+  },
+  {
+    "id": 6,
+    "category": "steaks",
+    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacYSKTpw6vS4XSLC9x20tATi-PTkQjdXxCg&s"
+  }
+]

@@ -6,12 +6,13 @@ import styles from "../AppLayout/AppLayout.module.css";
 function AppLayout() {
   return (
     <>
-      <Header />
-      <div className={styles.container}>
-        <Outlet />
+      <div className={styles.bodyWrapper}>
+        <Header />
+        <div className={styles.container}>
+          <Outlet />
+        </div>
+        <Footer />
       </div>
-
-      <Footer />
     </>
   );
 }
