@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { loader as pizzaloader } from "./Pages/Pizza/pizza";
+import { loader as bestFoodloader } from "./Pages/BestFood/BestFoods";
 import AppLayout from "./AppLayout/AppLayout";
 import Menu from "./Pages/Menu/Menu";
 import HomePage from "./Pages/HomePage/HomePage";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Pizza from "./Pages/Pizza/pizza";
-import { loader as pizzaloader } from "./Pages/Pizza/pizza";
 import BestFoods from "./Pages/BestFood/BestFoods";
 import Drinks from "./Pages/Drinks/Drinks";
 import Sandwiches from "./Pages/Sandwiches/Sandwiches";
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       {
         path: "menu/bestfood",
         element: <BestFoods />,
+        loader: bestFoodloader,
       },
       {
         path: "menu/burgers",

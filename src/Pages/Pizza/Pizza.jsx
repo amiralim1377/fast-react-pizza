@@ -5,7 +5,7 @@ import styles from "./Pizza.module.css";
 
 function Pizza() {
   const pizzas = useLoaderData();
-  console.log(pizzas);
+  // console.log(pizzas);
 
   return (
     <>

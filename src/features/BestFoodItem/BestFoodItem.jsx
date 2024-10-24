@@ -1,5 +1,6 @@
-import styles from "./pizzaItem.module.css";
-function PizzaItem({ name, dsc, price, img }) {
+import styles from "./BestFoodItem.module.css";
+
+function BestFoodItem({ name, dsc, price, img }) {
   return (
     <>
       <div className={styles.itemWrapper}>
@@ -16,4 +17,4 @@ function PizzaItem({ name, dsc, price, img }) {
   );
 }
 
-export default PizzaItem;
+export default BestFoodItem;
