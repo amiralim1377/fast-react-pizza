@@ -6,7 +6,7 @@ function BestFoods() {
   const bestfood = useLoaderData();
   return (
     <>
-      <div className={styles.pizzaItemWrapper}>
+      <div className={styles.bestfoodWrapper}>
         {bestfood.map((bestfood) => (
           <BestFoodItem
             key={bestfood.id}

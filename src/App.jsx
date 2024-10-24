@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as pizzaloader } from "./Pages/Pizza/pizza";
 import { loader as bestFoodloader } from "./Pages/BestFood/BestFoods";
+import { loader as burgersloader } from "./Pages/Burgers/Burgers";
 import AppLayout from "./AppLayout/AppLayout";
 import Menu from "./Pages/Menu/Menu";
 import HomePage from "./Pages/HomePage/HomePage";
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       {
         path: "menu/burgers",
         element: <Burgers />,
+        loader: burgersloader,
       },
       {
         path: "menu/drinks",
