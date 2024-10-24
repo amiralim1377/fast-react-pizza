@@ -2,6 +2,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as pizzaloader } from "./Pages/Pizza/pizza";
 import { loader as bestFoodloader } from "./Pages/BestFood/BestFoods";
 import { loader as burgersloader } from "./Pages/Burgers/Burgers";
+import { loader as drinksloader } from "./Pages/Drinks/Drinks";
+import { loader as Sandwichesloader } from "./Pages/Sandwiches/Sandwiches";
+import { loader as steaksloader } from "./Pages/Steaks/Steaks";
 import AppLayout from "./AppLayout/AppLayout";
 import Menu from "./Pages/Menu/Menu";
 import HomePage from "./Pages/HomePage/HomePage";
@@ -44,14 +47,17 @@ const router = createBrowserRouter([
       {
         path: "menu/drinks",
         element: <Drinks />,
+        loader: drinksloader,
       },
       {
         path: "menu/sandwiches",
         element: <Sandwiches />,
+        loader: Sandwichesloader,
       },
       {
         path: "menu/steaks",
         element: <Steaks />,
+        loader: steaksloader,
       },
       {
         path: "aboutus",
