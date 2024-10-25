@@ -19,8 +19,12 @@ import Burgers from "./Pages/Burgers/Burgers";
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
-    path: "/",
     children: [
+      {
+        index: true,
+        path: "/",
+        element: <HomePage />,
+      },
       {
         path: "homepage",
         element: <HomePage />,

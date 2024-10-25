@@ -27,3 +27,7 @@ header::after {
 header::before {
   margin-left: 15px;
 }
+
+.titleWeb {
+  font-family: Roboto Mono;
+}

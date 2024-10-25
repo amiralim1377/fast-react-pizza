@@ -80,3 +80,13 @@ body {
   font-family: "RobotoMono-Medium";
   src: url("../public/font/static/RobotoMono-Medium.ttf") format("ttf");
 }
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700 */
+
+.roboto-mono-font-project {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}

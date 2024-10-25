@@ -8,7 +8,10 @@ function Menu() {
   return (
     <ul className={styles.categorywrapper}>
       {category.map((item) => (
-        <Link to={`/menu/${item.category.toLowerCase().replaceAll(" ", "")}`}>
+        <Link
+          className={styles.linkNav}
+          to={`/menu/${item.category.toLowerCase().replaceAll(" ", "")}`}
+        >
           <LoopCategory key={item.id} src={item.src} category={item.category} />
         </Link>
       ))}

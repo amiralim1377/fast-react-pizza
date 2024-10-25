@@ -5,7 +5,7 @@ function Header() {
     <>
       <header className={styles.header}>
         <div>
-          <h1>FAST REACT PIZZA CO.</h1>
+          <h1 className={styles.titleWeb}>FAST REACT PIZZA CO.</h1>
         </div>
       </header>
       <NavComponent />

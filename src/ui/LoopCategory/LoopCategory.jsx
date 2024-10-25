@@ -3,8 +3,8 @@ function LoopCategory({ src, category, id }) {
   return (
     <li className={styles.pizzawrapper}>
       <div>
-        <img src={src} alt="" />
-        <p>{category}</p>
+        <img className={styles.divpizzawrapper} src={src} alt="" />
+        <p className={styles.pizzawrapperTagP}>{category}</p>
       </div>
     </li>
   );
