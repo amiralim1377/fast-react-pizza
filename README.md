@@ -8,22 +8,19 @@
 
 # no responsive =))
 
-🍞 Usage:
-
-Navigate to the following URL, replacing <params> with the appropriate endpoint:
-
-# The Api:
-
-https://free-food-menus-api-two.vercel.app/<params>
+🍞 Demo:
+https://fastreactpizzacom.netlify.app/
 
 # Here's how you might fetch data about burgers from the API:
 
 // Use fetch (Copy and paste to browser console to see result!)
+
 fetch('https://free-food-menus-api-two.vercel.app/burgers')
 .then((response) => response.json())
 .then((data) => console.log(data));
 
-// What we have?
+# What we have?
+
 [
 {
 id: ...,
